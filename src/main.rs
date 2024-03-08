@@ -37,5 +37,16 @@ fn main() {
         println!("looping for loop => {}",j)
     }
 
+    //swich or matcher
+
+    let day = 4;
+
+    match day {
+        1=> println!("Monday"),
+        2=> println!("Tuesday"),
+        3=> println!("Wednesday"),
+        _=> println!("It is something else"),
+    }
+
 
 }
