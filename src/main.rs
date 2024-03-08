@@ -11,5 +11,10 @@ fn main() {
 
     println!("array : {:?}",array);
 
-    
+    let mut vector:Vec<i32> = vec![1,2,3,4,5];
+    vector.push(6);
+
+    println!("vector {:?}",vector);
+
+
 }
