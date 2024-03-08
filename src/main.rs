@@ -6,4 +6,10 @@ fn main() {
     let float:f64 = 0.32;
 
     println!("Hello, world! => {} {} {}",unassigned,signed,float);
+
+    let array:[i32;5] = [1,2,3,4,5];
+
+    println!("array : {:?}",array);
+
+    
 }
