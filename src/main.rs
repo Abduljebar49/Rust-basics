@@ -16,5 +16,26 @@ fn main() {
 
     println!("vector {:?}",vector);
 
+    //loop 
+    let mut counter:i32 = 0;
+    loop{
+        println!("looping... {}",counter);
+        counter += 1;
+        if counter>=5{
+            break;
+        }
+    }
+
+    let mut i: i32 = 0;
+    while i<10 {
+       println!("Looping => {}",i);
+        i+=1;
+    }
+
+    let mut j:i32 = 0;
+    for j in 0..10{
+        println!("looping for loop => {}",j)
+    }
+
 
 }
